@@ -32,7 +32,10 @@ namespace ConsoleApp1
             char symbol_2 = " ";
 
             string str = "Строка с текстом";
-
+            
+            short coordinate_x = -5200;
+            
+            ulong money = 18000000;
         }
     }
 }
