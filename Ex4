@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите Ваше имя");
+            string userName = Console.ReadLine();
+
+            Console.WriteLine("Введите Вашу фамилию");
+            string userSecondName = Console.ReadLine();
+
+            Console.WriteLine(userName + ", Сколько Вам лет");
+            var userAge = Console.ReadLine();
+
+            Console.WriteLine("Введите Ваш населенный пункт, " + userName);
+            string userPlace = Console.ReadLine();
+
+            Console.WriteLine("Какое Ваше хобби?");
+            string userHobby = Console.ReadLine();
+
+            Console.WriteLine("Итак, Вас зовут " + userSecondName + " " +  userName + ", Ваш возраст: " + userAge + ", Вы живете в " + userPlace + ", Ваше Хобби: " + userHobby + "!");
+
+        }
+    }
+}
