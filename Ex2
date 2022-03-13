@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var height = 12.5f;
+
+            byte number = 255;
+            uint age = 55;
+
+            int numberOfTrees;
+            numberOfTrees = 50;
+            int numberOfBoats = 30;
+            int sum = numberOfTrees + numberOfBoats;
+
+            bool isRed = true;
+            bool isMore = numberOfTrees > numberOfBoats;
+
+            float distance = 125.5e10f
+            double width = 14.6;
+
+            decimal weight = 152.625m;
+
+            char symbol_1 = "r";
+            char symbol_2 = " ";
+
+            string str = "Строка с текстом";
+
+        }
+    }
+}
